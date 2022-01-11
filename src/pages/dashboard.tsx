@@ -4,6 +4,8 @@ import { ApexOptions } from 'apexcharts';
 import { Header } from "../components/Header";
 import { Siderbar } from "../components/Sidebar";
 
+
+
 const Chart = dynamic(() => import('react-apexcharts'), {
     ssr: false,
 })
